@@ -11,7 +11,7 @@ object Request  {
  
   var request: HttpRequestBuilder = http("Element") 
     .post("/loadtest/api/runCollector".trim)
-    .body(StringBody("{\"requestId\": \"AngelTYPEVII\",\"body\": \"Oo\"}")).asJson
+    .body(StringBody("{\"requestId\": \"Timur\",\"body\": \"OozZz\"}")).asJson
     .check(status.is(200)) 
  
   var requestInfo: HttpRequestBuilder = http("Info") 
